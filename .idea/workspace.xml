@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e36f88d-b7c5-4d6c-9743-92d994cfaca0" name="Default Changelist" comment="">
+    <list default="true" id="5e36f88d-b7c5-4d6c-9743-92d994cfaca0" name="Default Changelist" comment="#Algorithm #Strings #Medium">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hacker/rank/SherlockAndTheValidString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hacker/rank/TheFullCountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hacker/rank/TheFullCountingSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -21,37 +21,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hacker/rank/CountingSort1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hacker/rank/CountingSort2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/hacker/rank/TheFullCountingSort.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hacker/rank/SherlockAndTheValidString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+            <state relative-caret-position="180">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
               <folding>
-                <element signature="e#778#786#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,6 +51,7 @@
         <option value="$PROJECT_DIR$/src/main/java/hacker/rank/CountingSort1.java" />
         <option value="$PROJECT_DIR$/src/main/java/hacker/rank/CountingSort2.java" />
         <option value="$PROJECT_DIR$/src/main/java/hacker/rank/TheFullCountingSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hacker/rank/SherlockAndTheValidString.java" />
       </list>
     </option>
   </component>
@@ -132,7 +109,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558861433230" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558875471332" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -146,7 +123,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TheFullCountingSort">
+  <component name="RunManager" selected="Application.SherlockAndTheValidString">
     <configuration name="CountingSort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hacker.rank.CountingSort1" />
       <module name="hacker.rank.hacker-rank.main" />
@@ -161,6 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SherlockAndTheValidString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hacker.rank.SherlockAndTheValidString" />
+      <module name="hacker.rank.hacker-rank.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TheFullCountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hacker.rank.TheFullCountingSort" />
       <module name="hacker.rank.hacker-rank.main" />
@@ -170,6 +154,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SherlockAndTheValidString" />
         <item itemvalue="Application.TheFullCountingSort" />
         <item itemvalue="Application.CountingSort2" />
         <item itemvalue="Application.CountingSort1" />
@@ -201,14 +186,14 @@
       <window_info id="Learn" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21550672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32959184" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32959184" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -223,6 +208,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="#Algorithm #Strings #Medium" />
+    <option name="LAST_COMMIT_MESSAGE" value="#Algorithm #Strings #Medium" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/rank/Day14Scope.java">
@@ -261,10 +250,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hacker/rank/TheFullCountingSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        <state relative-caret-position="211">
+          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
           <folding>
             <element signature="e#778#786#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hacker/rank/SherlockAndTheValidString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
