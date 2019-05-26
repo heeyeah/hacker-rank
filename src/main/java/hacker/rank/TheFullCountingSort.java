@@ -12,8 +12,10 @@ import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 
+
 public class TheFullCountingSort {
 
+    //TODO solve #5, timeout
     static void countSort(List<List<String>> arr) {
 
 
@@ -38,14 +40,6 @@ public class TheFullCountingSort {
 
         StringBuilder sb = new StringBuilder();
 
-
-//        for(List<String> content : words) {
-//            if(content != null) {
-//                for(String cont : content) {
-//                    sb.append(cont).append(" ");
-//                }
-//            }
-//        }
 
         Arrays.stream(words).filter(e -> e!= null).forEach(el -> {
             for(String e : el) {
