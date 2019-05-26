@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.IntStream;
@@ -13,8 +14,50 @@ import static java.util.stream.Collectors.toList;
 
 public class TheFullCountingSort {
 
-    // Complete the countSort function below.
     static void countSort(List<List<String>> arr) {
+
+
+        List<String>[] words = new List[100];
+
+
+        for(int i = 0 ; i < arr.size() ; i++) {
+
+            List<String> el = arr.get(i);
+
+            int index = Integer.parseInt(el.get(0));
+            String word = (i < arr.size() / 2) ? "-" : el.get(1);
+
+            if(words[index] == null) {
+                List<String> innerWord = new ArrayList<String>();
+                innerWord.add(word);
+                words[index] = innerWord;
+            } else {
+                words[index].add(word);
+            }
+        }
+
+        StringBuilder sb = new StringBuilder();
+
+
+//        for(List<String> content : words) {
+//            if(content != null) {
+//                for(String cont : content) {
+//                    sb.append(cont).append(" ");
+//                }
+//            }
+//        }
+
+        Arrays.stream(words).filter(e -> e!= null).forEach(el -> {
+            for(String e : el) {
+                sb.append(e).append(" ");
+            }
+        });
+
+        System.out.println(sb.toString().trim());
+    }
+
+    // Complete the countSort function below.
+    static void notUsingCountSort(List<List<String>> arr) {
 
         for (int i = 0; i < arr.size() / 2; i++) {
             arr.get(i).add("-");
